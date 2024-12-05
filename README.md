@@ -95,6 +95,7 @@ The bar chart below illustrates the class distribution in the training set, high
 
 - **Most Represented Classes**: Yellow Rust, Brown Rust.
 - **Least Represented Classes**: Stem Fly, Septoria.
+![image](https://github.com/user-attachments/assets/02f5aed5-ed7f-490d-bbe5-a789a0dcba39)
 
 
 
