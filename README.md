@@ -96,13 +96,14 @@ The bar chart below illustrates the class distribution in the training set, high
 - **Most Represented Classes**: Yellow Rust, Brown Rust.
 - **Least Represented Classes**: Stem Fly, Septoria.
 
-![Class Distribution]()
+
 
 ### Image Dimensions
 The histograms below show the distribution of image dimensions (width and height), indicating minor variations:
 
 - **Peak Dimensions**: `(224, 224)`.
 - **Outliers**: A few classes have significantly larger or smaller images.
+![image](https://github.com/user-attachments/assets/a32036ff-80f1-4384-be50-2fa4b2c004c7)
 
 ---
 
