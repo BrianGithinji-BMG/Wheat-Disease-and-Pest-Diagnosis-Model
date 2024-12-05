@@ -37,7 +37,7 @@ The tool is designed to empower farmers by:
 
 ## **Project Workflow**
 ### **1. Data Analysis**
-# Exploratory Data Analysis (EDA) Findings
+#### Exploratory Data Analysis (EDA) Findings
 
 ## 1. Overview
 The dataset consists of wheat plant disease images divided into three subsets: training, validation, and test. There are 15 classes, each representing a specific wheat disease or pest.
@@ -120,12 +120,12 @@ The dataset is well-suited for training machine learning models but requires pre
 - Augmented data to address class imbalances.
 
 ### **3. Model Development**
-- Transfer Learning using `ResNet50`.
+- Transfer Learning using `MobileNetV2`.
 - Optimized hyperparameters for improved performance.
 - Metrics:
-  - Accuracy: **xx%**
-  - Precision: **xx%**
-  - Recall: **xx%**
+  - Accuracy: **71.3%**
+  - Precision: **72**
+  - Recall: **70%**
 
 ### **4. Deployment**
 - Deployed a user-friendly Streamlit app.
