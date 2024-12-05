@@ -124,10 +124,13 @@ The dataset is well-suited for training machine learning models but requires pre
 ### **3. Model Development**
 - Transfer Learning using `MobileNetV2`.
 - Optimized hyperparameters for improved performance.
+ ![image](https://github.com/user-attachments/assets/f03b0b03-a0b7-4c0f-8995-1f7b5c470864)
+ 
 - Metrics:
   - Accuracy: **71.3%**
-  - Precision: **72**
-  - Recall: **70%**
+  - Precision: **72%**
+  - Recall: **72%**
+![image](https://github.com/user-attachments/assets/8c8ed286-219f-4084-8bff-4474a0757928)
 
 ### **4. Deployment**
 - Deployed a user-friendly Streamlit app.
