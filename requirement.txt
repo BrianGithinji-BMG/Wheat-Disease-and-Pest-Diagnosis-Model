@@ -1,3 +1,4 @@
+# Core Libraries
 streamlit==1.40.0
 pandas==2.1.1
 numpy==1.26.0
@@ -8,7 +9,34 @@ requests==2.32.3
 pyyaml==6.0.2
 pytz==2024.2
 
+# TensorFlow and Related Libraries
+tensorflow==2.14.0
+tensorflow-hub==0.14.0
+tensorflow-datasets==4.9.2
+
+# Utility Libraries
 asttokens==2.4.1
 astunparse==1.6.3
 async-lru==2.0.4
 attrs==24.2.0
+seaborn==0.13.0
+plotly==5.18.0
+
+# NLP Libraries (if needed)
+nltk==3.8.0
+spacy==3.6.1
+transformers==4.34.0
+
+# Data and Model Storage
+h5py==3.9.0
+joblib==1.4.2
+
+# Deployment and Integration
+flask==3.1.0
+fastapi==0.105.1
+
+# Jupyter Notebook Tools
+jupyter==1.0.0
+notebook==7.1.5
+
+
