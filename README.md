@@ -1,6 +1,6 @@
 
 # **Wheat Disease and Pest Diagnosis Model**
-![8dac43b028d2a68f1c2439ad0b7a75b0](https://github.com/user-attachments/assets/d59f5042-6978-4ca4-b9bb-7336abf03555)!![d4de8a94d7387983c884475f0c1cfc61](https://github.com/user-attachments/assets/127cbcbb-a1f0-45bd-b0a4-bee56eb10d2b)
+![8dac43b028d2a68f1c2439ad0b7a75b0](https://github.com/user-attachments/assets/d59f5042-6978-4ca4-b9bb-7336abf03555)![d4de8a94d7387983c884475f0c1cfc61](https://github.com/user-attachments/assets/127cbcbb-a1f0-45bd-b0a4-bee56eb10d2b)
 
 
 
