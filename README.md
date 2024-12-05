@@ -37,7 +37,82 @@ The tool is designed to empower farmers by:
 
 ## **Project Workflow**
 ### **1. Data Analysis**
-- Exploratory Data Analysis (EDA) to understand class distributions and identify data quality issues.
+# Exploratory Data Analysis (EDA) Findings
+
+## 1. Overview
+The dataset consists of wheat plant disease images divided into three subsets: training, validation, and test. There are 15 classes, each representing a specific wheat disease or pest.
+
+---
+
+## 2. Class Distribution
+
+### Training Set
+- **Most Represented Classes**:
+  - Yellow Rust: 1,301 images
+  - Brown Rust: 1,167 images
+- **Least Represented Classes**:
+  - Stem Fly: 172 images
+  - Septoria: 349 images
+
+This significant class imbalance may affect model performance, requiring techniques like oversampling or data augmentation for underrepresented classes.
+
+---
+
+## 3. Image Dimensions
+
+- **Common Dimensions**: Most images have a resolution of `(224, 224)` pixels.
+- **Inconsistencies**:
+  - Some classes have images with significantly different resolutions, which might require resizing for uniformity.
+
+### Visualization: Distribution of Image Dimensions
+- Width and height distributions indicate minor variations, suggesting the need for normalization before model training.
+
+---
+
+## 4. Dataset Splits
+
+- **Class Imbalance Across Splits**:
+  - The training set has sufficient data for most classes but needs balancing.
+  - Validation and test sets are not evenly distributed, affecting model evaluation reliability.
+
+---
+
+## 5. Recommended Actions
+
+1. **Class Imbalance**:
+   - Apply data augmentation or oversampling for underrepresented classes (`Stem Fly`, `Septoria`, etc.).
+2. **Resize Images**:
+   - Standardize image dimensions to `(224, 224)` to ensure uniformity.
+3. **Augment Validation/Test Data**:
+   - Use training images to supplement validation and test sets, ensuring all classes are represented.
+
+---
+
+## 6. Visualizations
+
+### Class Distribution in Training Set
+The bar chart below illustrates the class distribution in the training set, highlighting the imbalance across classes:
+
+- **Most Represented Classes**: Yellow Rust, Brown Rust.
+- **Least Represented Classes**: Stem Fly, Septoria.
+
+![Class Distribution]()
+
+### Image Dimensions
+The histograms below show the distribution of image dimensions (width and height), indicating minor variations:
+
+- **Peak Dimensions**: `(224, 224)`.
+- **Outliers**: A few classes have significantly larger or smaller images.
+
+---
+
+## Conclusion
+
+The dataset is well-suited for training machine learning models but requires preprocessing to address:
+1. **Class imbalance**: Augment minority classes.
+2. **Validation/Test augmentation**: Ensure sufficient representation across splits.
+3. **Image resizing**: Standardize dimensions for consistent model input.
+
 
 ### **2. Preprocessing**
 - Resized all images to 224x224.
